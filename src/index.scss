@@ -1,0 +1,26 @@
+*,
+button,
+input {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: 'Urbanist', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App{
+  text-align: center;
+}
+
+.custom-scroll::-webkit-scrollbar {
+  width: 1rem;
+}
+
+.custom-scroll::-webkit-scrollbar-track {
+  border-radius: 30px;
+  border: 1px solid blue;
+  background-color: #efe24f;
+}
+
